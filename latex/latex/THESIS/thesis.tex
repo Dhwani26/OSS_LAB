@@ -1,0 +1,107 @@
+% Yue Li, June 2017
+
+\documentclass[a4paper,12pt,oneside]{report}
+\usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=3cm]{geometry}
+\usepackage{dirtytalk}
+\usepackage{float}
+\include{thesis.preamble}
+
+
+\begin{document}
+
+\title{%The Effects of Emerging
+Artificial Intelligence %Techniques%on the Ethical Role of Computer Scientists
+}
+\let \listoftables \relax
+\author{DhwaniAgarwal}
+\submitdate{February 2019}
+\degree{SY IT}
+\studentid{171081018}
+\supervisor{Pranav Nerurkar}
+
+\normallinespacing
+\maketitle
+
+% delete the two declaration sentences in thesis.sty if not applicable. 
+\newpage
+\begin{center}
+    \vfill
+    \textbf{\Large{CERTIFICATE}} \\
+    \topskip0pt
+    \vspace*{\fill}
+
+
+    This is to certify that, \textbf{Miss. Dhwani Agarwal (ID- 171081018)} ,
+a student of SY IT has completed an Annual Progress Seminar-II held
+in November 2018 for research work on \textbf{The Effects of Emerging Artificial Intelligence Techniques on the Ethical Role of Computer Scientists} to our satisfaction.
+    \vspace*{\fill}
+    \vfill
+    Pranav Nerurkar \\
+Supervisor
+\vfill
+Date:\\
+Place:
+\end{center}
+
+\newpage
+\begin{center}
+    \textbf{\Large{Declaration of Student}} \\
+    \vspace{7mm}
+    declare that this written submission represents my ideas in my own words and where others' ideas or words have been included, I have adequately cited and referenced the original sources.\\
+    \smallskip
+    \vspace{5mm}
+    I also declare that I have adhered to all principles of academic honesty and integrity and have not misrepresented or fabricated or falsified any idea / data / fact / source in my submission.\\
+    \smallskip
+    \vspace{5mm}
+    I understand that any violation of the above will be cause for disciplinary action by the Institute and can also evoke penal action from the sources which have thus not been properly cited or from whom proper permission has not been taken when needed.
+     
+    
+\end{center}
+\vfill
+    Miss. Dhwani Agarwal \\ (ID No: 171081018) \hfill Date :\underline{\hspace{1.5in}}
+
+
+
+\newpage
+\preface
+\input{abstract/abstract}
+\input{acknowledgements/acknowledgements}
+
+% There is a maximum limit of 15,000 words without exceeding 40 pages (A4 sides) for the main body of the dissertation that will be submitted in PDF. This limitation includes the bibliography and excludes cover/front pages (e.g., abstract, acknowledgement, table of contents) and excludes the appendices, listing of any codes or any other supporting documentation.
+% Note: Your dissertation should not exceed the word and page limits. You do not have to use up your word limit to get a good grade; never `pad out' your dissertation, this will only annoy the markers.
+
+\body
+\input{introduction/introduction}
+\input{background/background}
+
+% body of thesis comes here
+\input{body/body}
+
+\input{summary/summary}
+
+\addcontentsline{toc}{chapter}{Bibliography}
+%\bibliographystyle{acm}
+%\bibliography{bibliography/bibliography}
+
+\begin{thebibliography}{10}
+\bibitem{one} Wachowski, Andy and Larry Wachowski. \underline{The Matrix.} Film. Warner Bros, 1999.
+\bibitem{two} Clarke, Arthur C. \underline{2001: A Space Odyssey.} New York: Roc, 1993.
+\bibitem{three} Clabaugh, Caroline and Dave Myszewski and Jimmy Pang. \say{Neural Networks.}
+Online. Internet. 15 March 2002. Available:\\
+http://cse.stanford.edu/classes/sophomore-college/projects-00/neural-networks/
+\bibitem{four} Dean, Thomas and James Allen and Yiannis Aloimonos. \underline{Artificial Intelligence:
+Theory and Practice.} Menlo Park: Addison-Wesley, 1995.
+\bibitem{five} Joy, William. \say{Why the Future Doesn’t Need Us.} Online. Internet. 19 June
+2001. Available: http://www.wired.com/wired/archive/8.04/joy\_pr.html.
+\bibitem{six} Paul, Gregory S. and Earl D. Cox.\underline{ Beyond Humanity: CyberEvolution and Future
+Minds. } \\ Rockland: Charles River Media, 1996.
+\bibitem{seven} Moravec, Hans.\underline{ Robot: Mere Machine to Transcendent Mind.} New York: Oxford
+University Press, 1999.
+\end{thebibliography}
+
+% appendices come here
+
+%\input{appendices/appendix}
+
+
+\end{document}
